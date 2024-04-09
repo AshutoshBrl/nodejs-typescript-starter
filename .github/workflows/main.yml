@@ -38,4 +38,4 @@ jobs:
       - name: ZAP Scan
         uses: zaproxy/action-full-scan@v0.10.0
         with:
-          target: 'http://localhost:3000'
+          target: 'http://localhost:5000'
